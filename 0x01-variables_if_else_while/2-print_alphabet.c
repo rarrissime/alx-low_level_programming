@@ -1,6 +1,4 @@
 #include <ctype.h>
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
  * main- Entry point
@@ -11,11 +9,11 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	for (int b = 'A' ; b <= 'Z' ; b++)
-	{
-		putchar(tolower(b));
-	}
-	putchar('\n');
-	return (0);
+for (int b = 'A' ; b <= 'Z' ; b++)
+{
+putchar(tolower(b));
+}
+putchar('\n');
+return (0);
 }
 
