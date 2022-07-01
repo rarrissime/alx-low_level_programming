@@ -11,11 +11,13 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	for (int b = 'A' ; b <= 'Z' ; b++)
+	int b, c;
+
+	for (b = 'A' ; b <= 'Z' ; b++)
 	{
 		putchar(tolower(b));
 	}
-	for (int c = 'A' ; c <= 'Z' ; c++)
+	for (c = 'A' ; c <= 'Z' ; c++)
 	{
 		putchar(toupper(c));
 	}
