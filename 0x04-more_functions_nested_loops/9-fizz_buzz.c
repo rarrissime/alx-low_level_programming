@@ -21,7 +21,7 @@ int main(void)
 			printf("Buzz");
 		else
 			printf("%d", a);
-		if (iia == 100)
+		if (a == 100)
 			continue;
 		printf(" ");
 	}
