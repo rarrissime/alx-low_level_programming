@@ -14,14 +14,14 @@ int main(void)
 		c = (a % 3);
 		d = (a % 5);
 		if (b == 0)
-			printf("Fizzbuzz");
+			printf("FizzBuzz");
 		else if (c == 0)
 			printf("Fizz");
 		else if (d == 0)
 			printf("Buzz");
 		else
 			printf("%d", a);
-		if (a == 100)
+		if (iia == 100)
 			continue;
 		printf(" ");
 	}
