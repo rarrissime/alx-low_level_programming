@@ -13,5 +13,5 @@ int _strlen_recursion(char *s)
 
 	a++;
 	return (a);
-	_putchar('\n')'
+	_putchar('\n');
 }
